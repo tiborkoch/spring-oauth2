@@ -1,0 +1,14 @@
+spring:
+  thymeleaf:
+    cache: false
+  security:
+    oauth2:
+      client:
+        registration:
+          facebook:
+            client-id: 686958905155840
+            client-secret: 94a36c31fd23f6cb04eda69c1650dd30
+
+logging:
+  level:
+    org.springframework.security: DEBUG
